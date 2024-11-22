@@ -1,0 +1,39 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "*",
+		"android": "*",
+		"mac": "*",
+		"ios": "*"
+	},
+	"id": "endless-spike-studio.endless-services-connector",
+	"name": "Endless Services Connector",
+	"description": "?",
+	"version": "v1.2.0",
+	"developer": "WOSHIZHAZHA120",
+	"early-load": true,
+	"settings": {
+		"service": {
+			"type": "string",
+			"name": "Service",
+			"description": "?",
+			"default": "-",
+			
+			"one-of": [
+				"-",
+				"Endless Proxy",
+				"Endless Server"
+			]
+		},
+		"debug": {
+			"type": "bool",
+			"name": "Debug",
+			"description": "?",
+			"default": false,
+			
+			"platforms": [
+				"win"
+			]
+		}
+	}
+}
