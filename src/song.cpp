@@ -16,7 +16,7 @@ class $modify(ProxySongInfoLayer, SongInfoLayer) {
 
         sprite->setScale(0.3);
 
-        auto button = CCMenuItemSpriteExtra::create(spr, this, menu_selector(ProxySongInfoLayer::handleProxyButtonClick));
+        auto button = CCMenuItemSpriteExtra::create(sprite, this, menu_selector(ProxySongInfoLayer::handleProxyButtonClick));
         auto position = ccp(387, -13);
 
         button->setPosition(position);
