@@ -9,7 +9,7 @@
 	"id": "endless-spike-studio.endless-services-connector",
 	"name": "Endless Services Connector",
 	"description": "?",
-	"version": "v1.2.0",
+	"version": "v1.3.0",
 	"developer": "WOSHIZHAZHA120",
 	"early-load": true,
 	"settings": {
