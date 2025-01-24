@@ -12,6 +12,11 @@
 	"version": "v1.3.0",
 	"developer": "WOSHIZHAZHA120",
 	"early-load": true,
+	"resources": {
+		"sprites": [
+			"resources/button.png"
+		]
+	},
 	"settings": {
 		"service": {
 			"type": "string",
