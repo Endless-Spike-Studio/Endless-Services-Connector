@@ -18,21 +18,10 @@
 			"name": "Service",
 			"description": "?",
 			"default": "-",
-			
 			"one-of": [
 				"-",
 				"Endless Proxy",
 				"Endless Server"
-			]
-		},
-		"debug": {
-			"type": "bool",
-			"name": "Debug",
-			"description": "?",
-			"default": false,
-			
-			"platforms": [
-				"win"
 			]
 		}
 	}
