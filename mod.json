@@ -17,7 +17,7 @@
 			"type": "string",
 			"name": "Service",
 			"description": "?",
-			"default": "-",
+			"default": "Endless Proxy",
 			"one-of": [
 				"-",
 				"Endless Proxy",
