@@ -2,6 +2,7 @@ name: 构建
 
 on:
   push:
+  pull_request:
   workflow_dispatch:
 
 jobs:
